@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#body {
+  background: linear-gradient(to right, #b2fefa, #0ed2f7);
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+#add {
+  background-color: #aae657;
+  color: white;
+  font-size: 16px;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+#clear {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.note {
+  background-color: white;
+  box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+  margin: 30px 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.note .tools {
+  background-color: #aae657;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tools .btn {
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+body .btn:hover {
+  color:white;
+}
+
+body .btn:focus {
+  box-shadow: none;
+}
+
+body .btn:active {
+  transform: scale(0.98);
+}
+
+.hidden {
+  display: none;
+}
